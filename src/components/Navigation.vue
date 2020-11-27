@@ -49,7 +49,7 @@
       :class="{ expand: flat }"
     >
       <v-toolbar-title>
-        <v-img src="@/assets/img/logo.png" max-width="50px" />
+        <v-img src="@/assets/img/logo.png" max-width="150px" />
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
@@ -74,7 +74,7 @@
           <span class="mr-2">Plan de Estudio</span>
         </v-btn>
         <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
-          <span class="mr-2">Contate-nos</span>
+          <span class="mr-2">Contatenos</span>
         </v-btn>
       </div>
     </v-app-bar>

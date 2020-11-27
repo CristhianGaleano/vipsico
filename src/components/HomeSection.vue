@@ -5,11 +5,12 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
+              <h1 class="display-2 font-weight-bold mb-4">Maestría en Innovación Educativida</h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
+                "La innovación constante en la única <br />
+                forma de manteserse competitivo, <br />
+                porque ninguna ventaja es <br/>
+                sostenible en el largo plazo."
               </h1>
               <v-btn
                 rounded
@@ -19,10 +20,10 @@
                 @click="$vuetify.goTo('#features')"
                 class="mt-5"
               >
-                Saiba mais
+                Bajar
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
-              <div class="video d-flex align-center py-4">
+              <!-- <div class="video d-flex align-center py-4">
                 <a @click.stop="dialog = true" class="playBut">
                   <svg
                     version="1.1"
@@ -61,9 +62,9 @@
                       r="103.3"
                     />
                   </svg>
-                </a>
-                <p class="subheading ml-2 mb-0">Assista o vídeo</p>
-              </div>
+                </a> -->
+                <!-- <p class="subheading ml-2 mb-0">Assista o vídeo</p> -->
+              <!-- </div> -->
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
           </v-row>
