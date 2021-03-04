@@ -6,6 +6,7 @@
       <about />
       <download />
       <pricing />
+      <masinfo />
       <contact />
     </v-main>
     <v-scale-transition>
@@ -17,7 +18,7 @@
         fixed
         bottom
         right
-        color="secondary"
+        color="primary"
         @click="toTop"
       >
         <v-icon>mdi-arrow-up</v-icon>
@@ -45,6 +46,8 @@ import about from "./components/AboutSection";
 import download from "./components/DownloadSection";
 import pricing from "./components/PricingSection";
 import contact from "./components/ContactSection";
+import masinfo from "./components/masinfo";
+
 
 export default {
   name: "App",
@@ -57,6 +60,7 @@ export default {
     download,
     pricing,
     contact,
+    masinfo,
   },
 
   data: () => ({
@@ -68,7 +72,7 @@ export default {
   created() {
     const top = window.pageYOffset || 0;
     if (top <= 60) {
-      this.color = "transparent";
+      this.color = "#fff";
       this.flat = true;
     }
   },
@@ -76,11 +80,13 @@ export default {
   watch: {
     fab(value) {
       if (value) {
-        this.color = "secondary";
+        // color nav inicial y scrolling
+        this.color = "#f9f9f9";
         this.flat = false;
       } else {
-        this.color = "transparent";
-        this.flat = true;
+        // cuando retorna
+        this.color = "#fff";
+        this.flat = false;
       }
     },
   },

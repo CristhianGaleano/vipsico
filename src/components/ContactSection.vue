@@ -1,28 +1,68 @@
 <template>
-  <section class="pb-8" id="contact">
+  <section class="pb-8" id="inscripciones">
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5">
-              <h1 class="font-weight-light display-1">Contate-nos</h1>
+              <h1 class="font-weight-light display-1">Inscripciones</h1>
               <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                explicabo commodi quisquam asperiores dolore ad enim provident
-                veniam perferendis voluptate, perspiciatis.
+                <p>Hasta el <span class="font-weight-medium">24 de abril de 2021</span></p>
               </h3>
               <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
+                Proceso de inscripción
               </h3>
+              <ul>
+                <li>Pago a través de las cuentas bancarias  </li>
+                <li>Acceso al formulario de inscripción y suministrar los datos requeridos: Formulario  de inscripción en google:  xxxxxxxx</li>
+                <li>Al final del formulario adjuntar el recibo de pago para hacer la respectiva corroboración </li>
+              </ul>
               <h3 class="font-weight-light mt-3">
                 Telefone: +xx (xx) xxxxx-xxxx
               </h3>
               <h3 class="font-weight-light">
-                Email: email@email.com
+                Email: enepsi6@ucp.edu.co
               </h3>
             </v-col>
             <v-col cols="12" sm="7">
-              <v-form @submit="onSubmit" ref="form" v-model="valid" :lazy-validation="lazy">
+              
+
+              <v-divider></v-divider>
+              <v-card>
+              
+                <v-list>
+                  <v-list-item>
+                    <v-list-item-title class="text-center font-weight-light display-1 ">Costo de inscripción</v-list-item-title>
+                  </v-list-item>
+                </v-list>
+
+                <v-flex>
+                  <v-divider></v-divider>
+                  <v-row justify="center">
+                    <v-col cols="5"><span class="text-center font-weight-medium">Estudiantes</span></v-col>
+                    <v-col cols="5" class="text-center font-weight-medium">$25000</v-col>
+                  </v-row>
+                  <v-divider></v-divider>
+                  <v-row justify="center">
+                    <v-col cols="5"><span>Docentes y profesionales</span></v-col>
+                    <v-col cols="5" class="text-center">$50000</v-col>
+                  </v-row>
+                  <v-divider></v-divider>
+                  <v-row justify="center">
+                    <v-col cols="5"><span>Ponentes</span></v-col>
+                    <v-col cols="5" class="text-center">$0</v-col>
+                  </v-row>
+                  <v-divider></v-divider>
+                </v-flex>
+
+                <!-- <v-card-actions>
+                  <v-btn text>Cristhian</v-btn>
+                </v-card-actions> -->
+              </v-card>
+
+              <!-- 
+
+                <v-form @submit="onSubmit" ref="form" v-model="valid" :lazy-validation="lazy">
                 <v-text-field
                   v-model="name"
                   :rules="nameRules"
@@ -56,6 +96,8 @@
                   Enviar
                 </v-btn>
               </v-form>
+               -->
+
             </v-col>
           </v-row>
         </v-col>
@@ -84,7 +126,13 @@
 </style>
 
 <script>
+
+import Cuentas from './Cuentas';
+
 export default {
+  
+  components: {    Cuentas  },
+
   data: () => ({
     icons: ["fa-facebook", "fa-twitter", "fa-linkedin", "fa-instagram"],
     valid: true,

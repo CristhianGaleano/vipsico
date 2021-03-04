@@ -8,18 +8,16 @@
               <v-img src="@/assets/img/ill2.svg" class="d-block ml-auto mr-auto" max-width="350px" />
             </v-col>
             <v-col cols="12" sm="8" class="white--text text-left">
-              <h1 class="font-weight-light display-2 mb-2">Baixar Demonstração</h1>
+              <h1 class="font-weight-light display-2 mb-2">Objetivo</h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ex
-                animi quod laboriosam vel blanditiis labore alias, aliquid,
-                tempora repellendus non.
+                El objetivo principal de ENEPSI VI es construir un encuentro experiencial y académico que posibilite el aprendizaje, la creación de ideas y el diálogo alrededor de la psicología en el marco de los retos contemporáneos de la sociedad Colombiana. Permitiendo reconocer y evidenciar la importancia de los procesos de investigación que se gestan en los estudiantes desde los campos clínico, del deporte, educativo, social, organizacional, neuropsicológico y del desarrollo.
               </h1>
-              <v-btn rounded outlined href="https://github.com/Joabsonlg/Landing-Page" target="_blank" large color="white" class="mt-4">
+              <!-- <v-btn rounded outlined href="https://github.com/Joabsonlg/Landing-Page" target="_blank" large color="white" class="mt-4">
                 <v-icon class="mr-2">
                   mdi-github
                 </v-icon>
                 Git Hub
-              </v-btn>
+              </v-btn> -->
             </v-col>
           </v-row>
         </v-col>

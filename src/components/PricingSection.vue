@@ -4,7 +4,7 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-card style="width: 100%">
-            <h1 class="text-center pt-6 font-weight-light display-2">Planos</h1>
+            <h1 class="text-center pt-6 font-weight-light display-2">Ponentes</h1>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
               <v-col class="col-12 col-sm-6 col-md-4">
@@ -12,20 +12,20 @@
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/paperplane.svg"></v-img>
+                        <div >
+                          <v-img class="circle2" src="~@/assets/img/ponente1.png"></v-img>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Básico</div>
+                    <div class="text--disabled text-h6 my-2">Eliana Quiroz <br> Gonzalez</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <!-- <div class="text-uppercase blue--text">Domínios personalizados</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Limite de 1000 acessos diários</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 20,00</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 20,00</div> -->
                     <v-btn
                         v-bind="size"
                         rounded
@@ -33,7 +33,7 @@
                         color="blue"
                         class="mt-6"
                     >
-                      Comece Agora!
+                      <!-- Comece Agora! -->
                     </v-btn>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
@@ -45,20 +45,20 @@
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/airplane.svg"/>
+                        <div>
+                          <v-img class="circle2" src="~@/assets/img/ponente2.png"/>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Padrão</div>
+                    <div class="text--disabled text-h6 my-2">Luana Isadora <br> Prato Valderrama</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <!-- <div class="text-uppercase blue--text">Domínios personalizados</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Limite de 10000 acessos diários</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 100,00</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 100,00</div> -->
                     <v-btn
                         v-bind="size"
                         rounded
@@ -66,7 +66,7 @@
                         color="blue"
                         class="mt-6"
                     >
-                      Comece Agora!
+                      <!-- Comece Agora! -->
                     </v-btn>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
@@ -80,20 +80,20 @@
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/aeroplane.svg"/>
+                        <div>
+                          <v-img class="circle2" src="~@/assets/img/ponente3.png"/>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Empresarial</div>
+                    <div class="text--disabled text-h6 my-2">María Clara Garavito <br> Gomez</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <!-- <div class="text-uppercase blue--text">Domínios personalizados</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Acessos ilimitados</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div> -->
                     <v-btn
                         v-bind="size"
                         rounded
@@ -101,7 +101,108 @@
                         color="blue"
                         class="mt-6"
                     >
-                      Comece Agora!
+                      <!-- Comece Agora! -->
+                    </v-btn>
+                  </v-card-text>
+                </div>
+              </v-col>
+            </v-row>
+            <v-row class="text-center">
+               <v-col class="col-12 col-md-4">
+                <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
+
+                <div class="flex-center">
+                  <v-card-text>
+                    <div class="flex-center">
+                      <div class="circle1">
+                        <div>
+                          <v-img class="circle2" src="~@/assets/img/ponente4.png"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text--disabled text-h6 my-2">Camilo Barrantes <br> Castro</div>
+                    <v-divider class="my-2"/>
+                    <!-- <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Acessos ilimitados</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Outras características...</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div> -->
+                    <v-btn
+                        v-bind="size"
+                        rounded
+                        outlined
+                        color="blue"
+                        class="mt-6"
+                    >
+                      <!-- Comece Agora! -->
+                    </v-btn>
+                  </v-card-text>
+                </div>
+              </v-col>
+              <v-col class="col-12 col-md-4">
+                <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
+
+                <div class="flex-center">
+                  <v-card-text>
+                    <div class="flex-center">
+                      <div class="circle1">
+                        <div>
+                          <v-img class="circle2" src="~@/assets/img/ponente5.png"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text--disabled text-h6 my-2">Mónica Patricia <br> Gallego Echeverri</div>
+                    <v-divider class="my-2"/>
+                    <!-- <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Acessos ilimitados</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Outras características...</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div> -->
+                    <v-btn
+                        v-bind="size"
+                        rounded
+                        outlined
+                        color="blue"
+                        class="mt-6"
+                    >
+                      <!-- Comece Agora! -->
+                    </v-btn>
+                  </v-card-text>
+                </div>
+              </v-col>
+              <v-col class="col-12 col-md-4">
+                <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
+
+                <div class="flex-center">
+                  <v-card-text>
+                    <div class="flex-center">
+                      <div class="circle1">
+                        <div>
+                          <v-img class="circle2" src="~@/assets/img/ponente6.png"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text--disabled text-h6 my-2">Marisol Franco <br> Lopez</div>
+                    <v-divider class="my-2"/>
+                    <!-- <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Acessos ilimitados</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Outras características...</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div> -->
+                    <v-btn
+                        v-bind="size"
+                        rounded
+                        outlined
+                        color="blue"
+                        class="mt-6"
+                    >
+                      <!-- Comece Agora! -->
                     </v-btn>
                   </v-card-text>
                 </div>

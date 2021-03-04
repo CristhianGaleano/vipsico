@@ -44,7 +44,7 @@
       app
       :color="color"
       :flat="flat"
-      dark
+      
       class="px-15"
       :class="{ expand: flat }"
     >
@@ -62,19 +62,19 @@
           <span class="mr-2">Descripción</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#features')">
-          <span class="mr-2">Perfiles</span>
+          <span class="mr-2">¿Quienes somos?</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#download')">
-          <span class="mr-2">Líneas</span>
+          <span class="mr-2">Objetivo</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#pricing')">
-          <span class="mr-2">Perfil Ocupacional</span>
+          <span class="mr-2">Ponentes</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#pricing')">
-          <span class="mr-2">Plan de Estudio</span>
+        <v-btn text @click="$vuetify.goTo('#masinfo')">
+          <span class="mr-2">Más información</span>
         </v-btn>
-        <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
-          <span class="mr-2">Contatenos</span>
+        <v-btn rounded outlined text @click="$vuetify.goTo('#inscripciones')">
+          <span class="mr-2">Inscripciones</span>
         </v-btn>
       </div>
     </v-app-bar>

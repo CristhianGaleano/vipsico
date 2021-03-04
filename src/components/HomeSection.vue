@@ -5,13 +5,11 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Maestría en Innovación Educativida</h1>
+              <h1 class="display-2 font-weight-bold mb-4">VI encuentro nacional de estudiantes de psicología-ENEPSI</h1>
               <h1 class="font-weight-light">
-                "La innovación constante en la única <br />
-                forma de manteserse competitivo, <br />
-                porque ninguna ventaja es <br/>
-                sostenible en el largo plazo."
+                "Una mirada desde la psicología a los retos contemporáneos"
               </h1>
+              <p class="font-weight-medium" >Del 28 al 30 de abril</p>
               <v-btn
                 rounded
                 outlined
@@ -100,8 +98,8 @@
                 >
                   <v-img
                     :src="feature.img"
-                    max-width="100px"
-                    class="d-block ml-auto mr-auto"
+                    
+                    class="borde-feature d-block ml-auto mr-auto"
                     :class="{ 'zoom-efect': hover }"
                   ></v-img>
                   <h1 class="font-weight-regular">{{ feature.title }}</h1>
@@ -137,20 +135,20 @@ export default {
       dialog: false,
       videoId: "i8IvvHJssWE",
       features: [
-        {
-          img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                {
+          img: require("@/assets/img/desc-2.jpg"),
+          title: "¿A quién se dirige?",
+          text: "Se dirige a estudiantes de psicología de todo del país, interesados en los procesos de investigación y formación académica.",
         },
         {
-          img: require("@/assets/img/icon1.png"),
-          title: "Dados Seguros",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/bgHero.jpg"),
+          title: "Enepsi es",
+          text: "Un movimiento estudiantil que busca promover espacios de reflexión y discusión sobre temas, problemas y fenómenos vigentes en la psicología a través de eventos académicos. Es también un espacio de intercambio y participación activa en la construcción de aprendizajes.",
         },
         {
-          img: require("@/assets/img/icon3.png"),
-          title: "Código Aberto",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/desc-3.jpg"),
+          title: "ENEPSI-VI te ofrece",
+          text: "Una experiencia formativa, social y cultural. Donde podrás conocer las diferentes perspectivas investigativas de los estudiantes de psicología del país.",
         },
       ],
     };
@@ -187,6 +185,9 @@ export default {
 </script>
 
 <style lang="scss">
+.borde-feature {
+  border-radius: 50%;
+}
 .circle {
   stroke: white;
   stroke-dasharray: 650;
