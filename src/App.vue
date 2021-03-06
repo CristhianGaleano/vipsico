@@ -4,8 +4,11 @@
     <v-main class="pt-0">
       <home />
       <!-- <about /> -->
-      <tabs />
+      <!-- Objetivo -->
       <download />
+      <!-- categorías -->
+      <tabs />
+      <!--Ponentes -->
       <pricing />
       <masinfo />
       <contact />
@@ -59,8 +62,8 @@ export default {
     navigation,
     foote,
     home,
-    tabs,
     about,
+    tabs,
     download,
     pricing,
     contact,

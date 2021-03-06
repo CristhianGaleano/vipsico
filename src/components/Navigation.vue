@@ -49,7 +49,7 @@
       :class="{ expand: flat }"
     >
       <v-toolbar-title>
-        <v-img src="@/assets/img/logo.png" max-width="150px" />
+        <v-img src="@/assets/img/logo.png"  max-height="49px" max-width="130px" />
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
