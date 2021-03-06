@@ -3,7 +3,8 @@
     <navigation :color="color" :flat="flat" />
     <v-main class="pt-0">
       <home />
-      <about />
+      <!-- <about /> -->
+      <tabs />
       <download />
       <pricing />
       <masinfo />
@@ -41,12 +42,14 @@
 <script>
 import navigation from "./components/Navigation";
 import foote from "./components/Footer";
+import tabs from './components/Tabs'
 import home from "./components/HomeSection";
 import about from "./components/AboutSection";
 import download from "./components/DownloadSection";
 import pricing from "./components/PricingSection";
 import contact from "./components/ContactSection";
 import masinfo from "./components/masinfo";
+import Tabs from './components/Tabs.vue';
 
 
 export default {
@@ -56,13 +59,13 @@ export default {
     navigation,
     foote,
     home,
+    tabs,
     about,
     download,
     pricing,
     contact,
     masinfo,
   },
-
   data: () => ({
     fab: null,
     color: "",
