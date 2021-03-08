@@ -9,7 +9,7 @@
               <h1 class="font-weight-light">
                 "Una mirada desde la psicología a los retos contemporáneos"
               </h1>
-              <p class="font-weight-medium" >Del 28 al 30 de abril</p>
+              <p class="font-weight-medium" >Del 28 al 30 de abril de 2021</p>
               <v-btn
                 rounded
                 outlined
@@ -76,12 +76,15 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="space-around">
-            <!-- <v-col cols="12" class="text-center">
-              <h1 class="font-weight-light display-2">Title</h1>
+            <v-col cols="12" class="text-center">
+              <h1 class="font-weight-light display-2">VI encuentro nacional de estudiantes de psicología</h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Un evento hecho por y para estudiantes de psicología ¡No faltes!
               </h1>
-            </v-col> -->
+              <h1 class="font-weight-light text--disabled font-italic">
+                Organiza estudiantes de psicología de la Universidad Católica de Pereira
+              </h1>
+            </v-col>
             <v-col
               cols="12"
               sm="4"

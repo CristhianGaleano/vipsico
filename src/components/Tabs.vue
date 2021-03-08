@@ -8,7 +8,10 @@
         Ejes temáticos
       </div>
       <div class="tabs-item" @click="handleTabClick(tabNames.PONENCIAS)" :class="{ 'tabs-item-active': activeTabName === tabNames.PONENCIAS }">
-        Ponentes
+        Ponencias centrales
+      </div>
+      <div class="tabs-item" @click="handleTabClick()">
+        Fechas importantes
       </div>
       <div class="tabs-item" @click="handleTabClick()">
         Memorias

@@ -45,36 +45,36 @@
       :color="color"
       :flat="flat"
       
-      class="px-15"
+      class="px-10"
       :class="{ expand: flat }"
     >
       <v-toolbar-title>
-        <v-img src="@/assets/img/logo.png"  max-height="49px" max-width="130px" />
+        <v-img src="@/assets/img/logo.png"  max-width="410px" />
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
-        class="mr-4"
+        class="mr-2"
         v-if="isXs"
       />
       <div v-else>
-        <v-btn text @click="$vuetify.goTo('#hero')">
-          <span class="mr-2">Descripción</span>
+        <v-btn small text @click="$vuetify.goTo('#hero')">
+          <span class="mr-1 text-caption">Descripción</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#features')">
-          <span class="mr-2">¿Quienes somos?</span>
+        <v-btn x-small text @click="$vuetify.goTo('#features')">
+          <span class="mr-1 text-caption">¿Quienes somos?</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#download')">
-          <span class="mr-2">Objetivo</span>
+        <v-btn x-small text @click="$vuetify.goTo('#download')">
+          <span class="mr-1 text-caption">Objetivo</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#pricing')">
-          <span class="mr-2">Ponentes</span>
+        <v-btn x-small text @click="$vuetify.goTo('#pricing')">
+          <span class="mr-1 text-caption">Ponentes</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#masinfo')">
-          <span class="mr-2">Más información</span>
+        <v-btn x-small text @click="$vuetify.goTo('#masinfo')">
+          <span class="mr-1 text-caption">Más información</span>
         </v-btn>
         <v-btn rounded outlined text @click="$vuetify.goTo('#inscripciones')">
-          <span class="mr-2">Inscripciones</span>
+          <span class="mr-1 text-caption">Inscripciones</span>
         </v-btn>
       </div>
     </v-app-bar>
