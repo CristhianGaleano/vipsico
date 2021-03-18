@@ -10,7 +10,7 @@
       <div class="tabs-item" @click="handleTabClick(tabNames.PONENCIAS)" :class="{ 'tabs-item-active': activeTabName === tabNames.PONENCIAS }">
         Ponencias centrales
       </div>
-      <div class="tabs-item" @click="handleTabClick()">
+      <div class="tabs-item" @click="handleTabClick(tabNames.MASINFO)" :class="{ 'tabs-item-active': activeTabName === tabNames.MASINFO }">
         Fechas importantes
       </div>
       <div class="tabs-item" @click="handleTabClick()">
@@ -26,15 +26,17 @@
  
 import Ejes from './Ejes'
 import Ponencias from './Ponencias'
+import Masinfo from './masinfo'
 
 const tabNames = {
   EJES: 'ejes',
-  PONENCIAS: 'ponencias'
+  PONENCIAS: 'ponencias',
+  MASINFO: 'masinfo',
 }
 
 export default {
   name: 'Tabs',
-  components: { Ejes, Ponencias },
+  components: { Ejes, Ponencias, Masinfo },
   methods: {
     handleTabClick(tabName){
       this.activeTabName = tabName;
@@ -51,7 +53,8 @@ export default {
       tabNames,
       tabs: {
         [tabNames.EJES]: Ejes,
-        [tabNames.PONENCIAS]: Ponencias
+        [tabNames.PONENCIAS]: Ponencias,
+        [tabNames.MASINFO]: Masinfo,
       }
     }
   },

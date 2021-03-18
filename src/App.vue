@@ -10,7 +10,7 @@
       <tabs />
       <!--Ponentes -->
       <pricing />
-      <masinfo />
+      <!-- <masinfo /> -->
       <contact />
     </v-main>
     <v-scale-transition>
@@ -51,7 +51,7 @@ import about from "./components/AboutSection";
 import download from "./components/DownloadSection";
 import pricing from "./components/PricingSection";
 import contact from "./components/ContactSection";
-import masinfo from "./components/masinfo";
+// import masinfo from "./components/masinfo";
 import Tabs from './components/Tabs.vue';
 
 
@@ -67,7 +67,7 @@ export default {
     download,
     pricing,
     contact,
-    masinfo,
+    // masinfo,
   },
   data: () => ({
     fab: null,

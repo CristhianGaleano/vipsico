@@ -26,15 +26,15 @@
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase text-h4 mt-6 blue--text">R$ 20,00</div> -->
-                    <v-btn
+                    <!-- <v-btn
                         v-bind="size"
                         rounded
                         outlined
                         color="blue"
                         class="mt-6"
                     >
-                      <!-- Comece Agora! -->
-                    </v-btn>
+                      Comece Agora!
+                    </v-btn> -->
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
@@ -59,15 +59,15 @@
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase text-h4 mt-6 blue--text">R$ 100,00</div> -->
-                    <v-btn
+                    <!-- <v-btn
                         v-bind="size"
                         rounded
                         outlined
                         color="blue"
                         class="mt-6"
                     >
-                      <!-- Comece Agora! -->
-                    </v-btn>
+                      Comece Agora!
+                    </v-btn> -->
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
                 </div>
@@ -94,15 +94,15 @@
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div> -->
-                    <v-btn
+                    <!-- <v-btn
                         v-bind="size"
                         rounded
                         outlined
                         color="blue"
                         class="mt-6"
                     >
-                      <!-- Comece Agora! -->
-                    </v-btn>
+                      Comece Agora!
+                    </v-btn> -->
                   </v-card-text>
                 </div>
               </v-col>
@@ -129,15 +129,15 @@
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div> -->
-                    <v-btn
+                    <!-- <v-btn
                         v-bind="size"
                         rounded
                         outlined
                         color="blue"
                         class="mt-6"
                     >
-                      <!-- Comece Agora! -->
-                    </v-btn>
+                      Comece Agora!
+                    </v-btn> -->
                   </v-card-text>
                 </div>
               </v-col>
@@ -162,15 +162,15 @@
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div> -->
-                    <v-btn
+                    <!-- <v-btn
                         v-bind="size"
                         rounded
                         outlined
                         color="blue"
                         class="mt-6"
                     >
-                      <!-- Comece Agora! -->
-                    </v-btn>
+                      Comece Agora!
+                    </v-btn> -->
                   </v-card-text>
                 </div>
               </v-col>
@@ -195,15 +195,15 @@
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div> -->
-                    <v-btn
+                    <!-- <v-btn
                         v-bind="size"
                         rounded
                         outlined
                         color="blue"
                         class="mt-6"
                     >
-                      <!-- Comece Agora! -->
-                    </v-btn>
+                      Comece Agora!
+                    </v-btn> -->
                   </v-card-text>
                 </div>
               </v-col>
