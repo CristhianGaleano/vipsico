@@ -43,12 +43,16 @@ export default {
       this.currentTab = this.tabs[tabName];
     },
   },
+  created() {
+      handleTabClick(tabNames.EJES);
+  },
+  
   data() {
     return {
       // Guarda el componente, es utilizado por Component, que esta bindead con is
-      currentTab: null,
+      currentTab: this.activeTabName = "ejes",
       // Guarda el nombre
-      activeTabName: null,
+      activeTabName: tabNames.EJES,
       // variable de estado
       tabNames,
       tabs: {
@@ -68,6 +72,8 @@ export default {
 
 .tabs-item{
   padding: 12px;
+  border-bottom: 1px solid slategray;
+  margin-right: 2px;
   cursor: pointer;
 }
 .tabs-item-active,
