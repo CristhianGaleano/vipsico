@@ -1,12 +1,12 @@
 <template>
   <v-container fluid>
     <v-row align="center" justify="center">
-      <v-col cols="4">
+      <v-col cols="3">
          <v-card
             class="mx-auto"
             max-width="380"
           >
-          <v-card-title>
+          <v-card-title class="caption">
             Eje temático Psicología clínica
           </v-card-title>
           <v-card-text>
@@ -16,12 +16,12 @@
           </v-card-text>
         </v-card>  
       </v-col>
-      <v-col cols="4">
+      <v-col cols="3">
          <v-card
             class="mx-auto"
             max-width="380"
           >
-          <v-card-title>
+          <v-card-title class="caption">
             Eje temático Psicología del deporte
           </v-card-title>
           <v-card-text>
@@ -36,7 +36,7 @@
             class="mx-auto"
             max-width="370"
           >
-          <v-card-title>
+          <v-card-title class="caption">
             Eje temático Psicología del desarrollo
           </v-card-title>
           <v-card-text>
@@ -49,12 +49,12 @@
 
     </v-row>
     <v-row align="center" justify="center">
-      <v-col cols="4">
+      <v-col cols="3">
          <v-card
             class="mx-auto"
             max-width="380"
           >
-          <v-card-title>
+          <v-card-title class="caption">
             Eje temático Psicología Educativa
           </v-card-title>
           <v-card-text>
@@ -64,12 +64,12 @@
           </v-card-text>
         </v-card>  
       </v-col>
-      <v-col cols="4">
+      <v-col cols="3">
          <v-card
             class="mx-auto"
             max-width="380"
           >
-          <v-card-title>
+          <v-card-title class="caption">
             Eje temático  Psicología Organizacional
           </v-card-title>
           <v-card-text>
@@ -84,7 +84,7 @@
             class="mx-auto"
             max-width="370"
           >
-          <v-card-title>
+          <v-card-title class="caption">
             Eje temático Neuropsicología
           </v-card-title>
           <v-card-text>
@@ -97,12 +97,12 @@
 
     </v-row>
     <v-row align="center" justify="center">
-      <v-col cols="4">
+      <v-col cols="3">
          <v-card
             class="mx-auto"
             max-width="380"
           >
-          <v-card-title>
+          <v-card-title class="caption">
             Eje temático Psicología Social
           </v-card-title>
           <v-card-text>
@@ -112,12 +112,12 @@
           </v-card-text>
         </v-card>  
       </v-col>
-      <v-col cols="4">
+      <v-col cols="3">
          <v-card
             class="mx-auto"
             max-width="380"
           >
-          <v-card-title>
+          <v-card-title class="caption">
             Eje temático Psicología clínica
           </v-card-title>
           <v-card-text>

@@ -219,7 +219,7 @@
             </v-card-title> -->
 
             <v-card-text class="headline font-weight-bold">
-              "Psicología cognitiva"
+              "Psicología <br> cognitiva"
             </v-card-text>
 
             <v-card-actions>
