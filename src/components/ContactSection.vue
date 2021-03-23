@@ -13,13 +13,13 @@
                 Proceso de inscripción
               </h3>
               <ul>
-                <li>Pago a través de las cuentas bancarias  </li>
+                <li>Pago a través de las cuentas bancarias: <cuentas></cuentas>
                 <li>Acceso al formulario de inscripción y suministrar los datos requeridos: Formulario  de inscripción en google:  xxxxxxxx</li>
                 <li>Al final del formulario adjuntar el recibo de pago para hacer la respectiva corroboración </li>
               </ul>
-              <h3 class="font-weight-light mt-3">
+              <!-- <h3 class="font-weight-light mt-3">
                 Telefone: +xx (xx) xxxxx-xxxx
-              </h3>
+              </h3> -->
               <h3 class="font-weight-light">
                 Email: enepsi6@ucp.edu.co
               </h3>
@@ -128,6 +128,7 @@
 <script>
 
 import Cuentas from './Cuentas';
+
 
 export default {
   

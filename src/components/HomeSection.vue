@@ -81,9 +81,9 @@
               <h1 class="font-weight-light">
                 Un evento hecho por y para estudiantes de psicología ¡No faltes!
               </h1>
-              <h1 class="font-weight-light text--disabled font-italic">
+              <h3 class="font-weight-light text--disabled font-italic">
                 Organiza estudiantes de psicología de la Universidad Católica de Pereira
-              </h1>
+              </h3>
             </v-col>
             <v-col
               cols="12"

@@ -7,7 +7,7 @@
             class="mx-auto"
             color="#918F8F"
             dark
-            max-width="400"
+            max-width="450"
           >
             <!-- <v-card-title>
               <v-icon
@@ -20,7 +20,7 @@
             </v-card-title> -->
 
             <v-card-text class="headline font-weight-bold">
-              "Psicología del deporte"
+              <h5> "Psicología del deporte"</h5>
             </v-card-text>
 
             <v-card-actions>
@@ -33,7 +33,7 @@
                 </v-list-item-avatar>
 
                 <v-list-item-content>
-                  <v-list-item-title>Luana Isadora</v-list-item-title>
+                  <v-list-item-title>Luana</v-list-item-title>
                 </v-list-item-content>
 
                 <v-row
@@ -41,7 +41,7 @@
                   justify="end"
                 >
                   <v-icon class="mr-1">mdi-heart</v-icon>
-                  <span class="subheading mr-2">256</span>
+                  <span class="subheading mr-2">723</span>
                   <span class="mr-1">·</span>
                   <!-- <v-icon class="mr-1">mdi-share-variant</v-icon>
                   <span class="subheading">45</span> -->
@@ -56,7 +56,7 @@
             class="mx-auto"
             color="#918F8F"
             dark
-            max-width="400"
+            max-width="450"
           >
             <!-- <v-card-title>
               <v-icon
@@ -69,7 +69,7 @@
             </v-card-title> -->
 
             <v-card-text class="headline font-weight-bold">
-              "Psicología organizacional"
+              <h5> "Psicología organizacional"</h5>
             </v-card-text>
 
             <v-card-actions>
@@ -105,7 +105,7 @@
             class="mx-auto"
             color="#918F8F"
             dark
-            max-width="400"
+            max-width="450"
           >
             <!-- <v-card-title>
               <v-icon
@@ -118,7 +118,7 @@
             </v-card-title> -->
 
             <v-card-text class="headline font-weight-bold">
-              "Psicología <br> educativa"
+               <h5>"Psicología educativa"</h5>
             </v-card-text>
 
             <v-card-actions>
@@ -139,7 +139,7 @@
                   justify="end"
                 >
                   <v-icon class="mr-1">mdi-heart</v-icon>
-                  <span class="subheading mr-2">256</span>
+                  <span class="subheading mr-2">923</span>
                   <span class="mr-1">·</span>
                   <!-- <v-icon class="mr-1">mdi-share-variant</v-icon>
                   <span class="subheading">45</span> -->
@@ -157,7 +157,7 @@
             class="mx-auto"
             color="#918F8F"
             dark
-            max-width="400"
+            max-width="450"
           >
             <!-- <v-card-title>
               <v-icon
@@ -170,7 +170,7 @@
             </v-card-title> -->
 
             <v-card-text class="headline font-weight-bold">
-              "Psicología <br> clínica"
+              <h5>"Psicología clínica" </h5>
             </v-card-text>
 
             <v-card-actions>
@@ -183,7 +183,7 @@
                 </v-list-item-avatar>
 
                 <v-list-item-content>
-                  <v-list-item-title>Marisol Franco Lopez</v-list-item-title>
+                  <v-list-item-title>Marisol</v-list-item-title>
                 </v-list-item-content>
 
                 <v-row
@@ -191,7 +191,7 @@
                   justify="end"
                 >
                   <v-icon class="mr-1">mdi-heart</v-icon>
-                  <span class="subheading mr-2">256</span>
+                  <span class="subheading mr-2">560</span>
                   <span class="mr-1">·</span>
                   <!-- <v-icon class="mr-1">mdi-share-variant</v-icon>
                   <span class="subheading">45</span> -->
@@ -206,7 +206,7 @@
             class="mx-auto"
             color="#918F8F"
             dark
-            max-width="400"
+            max-width="450"
           >
             <!-- <v-card-title>
               <v-icon
@@ -219,7 +219,7 @@
             </v-card-title> -->
 
             <v-card-text class="headline font-weight-bold">
-              "Psicología <br> cognitiva"
+              <h5>"Psicología cognitiva" </h5>
             </v-card-text>
 
             <v-card-actions>
@@ -232,7 +232,7 @@
                 </v-list-item-avatar>
 
                 <v-list-item-content>
-                  <v-list-item-title>Inti Camilo Barrantes</v-list-item-title>
+                  <v-list-item-title>Camilo</v-list-item-title>
                 </v-list-item-content>
 
                 <v-row
@@ -240,7 +240,7 @@
                   justify="end"
                 >
                   <v-icon class="mr-1">mdi-heart</v-icon>
-                  <span class="subheading mr-1">256</span>
+                  <span class="subheading mr-1">1.289</span>
                   <span class="mr-1">·</span>
                   <!-- <v-icon class="mr-1">mdi-share-variant</v-icon>
                   <span class="subheading">45</span> -->
@@ -255,7 +255,7 @@
             class="mx-auto"
             color="#918F8F"
             dark
-            max-width="400"
+            max-width="450"
           >
             <!-- <v-card-title>
               <v-icon
@@ -268,7 +268,7 @@
             </v-card-title> -->
 
             <v-card-text class="headline font-weight-bold">
-              "Psicología del desarrollo"
+              <h5> "Psicología del desarrollo"</h5>
             </v-card-text>
 
             <v-card-actions>
@@ -289,7 +289,7 @@
                   justify="end"
                 >
                   <v-icon class="mr-1">mdi-heart</v-icon>
-                  <span class="subheading mr-2">256</span>
+                  <span class="subheading mr-2">445</span>
                   <span class="mr-1">·</span>
                   <!-- <v-icon class="mr-1">mdi-share-variant</v-icon>
                   <span class="subheading">45</span> -->

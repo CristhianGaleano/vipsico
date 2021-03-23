@@ -58,9 +58,9 @@
         v-if="isXs"
       />
       <div v-else>
-        <v-btn small text @click="$vuetify.goTo('#hero')">
+        <!-- <v-btn small text @click="$vuetify.goTo('#hero')">
           <span class="mr-1 text-caption">Descripción</span>
-        </v-btn>
+        </v-btn> -->
         <v-btn x-small text @click="$vuetify.goTo('#features')">
           <span class="mr-1 text-caption">¿Quienes somos?</span>
         </v-btn>
