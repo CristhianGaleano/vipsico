@@ -67,14 +67,14 @@
         <v-btn x-small text @click="$vuetify.goTo('#download')">
           <span class="mr-1 text-caption">Objetivo</span>
         </v-btn>
-        <v-btn x-small text @click="$vuetify.goTo('#pricing')">
-          <span class="mr-1 text-caption">Ponentes</span>
-        </v-btn>
-        <!-- <v-btn x-small text @click="$vuetify.goTo('#masinfo')">
-          <span class="mr-1 text-caption">Más información</span>
-        </v-btn> -->
         <v-btn rounded outlined text @click="$vuetify.goTo('#inscripciones')">
           <span class="mr-1 text-caption">Inscripciones</span>
+        </v-btn>
+        <v-btn x-small text @click="$vuetify.goTo('#masinfo')">
+          <span class="mr-1 text-caption">Más información</span>
+        </v-btn>
+        <v-btn x-small text @click="$vuetify.goTo('#pricing')">
+          <span class="mr-1 text-caption">Ponentes</span>
         </v-btn>
       </div>
     </v-app-bar>

@@ -7,10 +7,10 @@
       <!-- Objetivo -->
       <download />
       <!-- categorías -->
+      <inscripciones />
       <tabs />
       <!--Ponentes -->
       <pricing />
-      <!-- <masinfo /> -->
       <contact />
     </v-main>
     <v-scale-transition>
@@ -51,8 +51,7 @@ import about from "./components/AboutSection";
 import download from "./components/DownloadSection";
 import pricing from "./components/PricingSection";
 import contact from "./components/ContactSection";
-// import masinfo from "./components/masinfo";
-import Tabs from './components/Tabs.vue';
+import Inscripciones from './components/inscripciones.vue';
 
 
 export default {
@@ -67,7 +66,7 @@ export default {
     download,
     pricing,
     contact,
-    // masinfo,
+    Inscripciones,
   },
   data: () => ({
     fab: null,

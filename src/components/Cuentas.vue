@@ -10,10 +10,14 @@
           dark
           v-bind="attrs"
           text
-
+          small
+          class="py-0 px-2"
           v-on="on"
         >
+        <v-chip
+        x-small>
           Consultar
+        </v-chip>
         </v-btn>
       </template>
 
