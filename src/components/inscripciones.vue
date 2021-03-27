@@ -1,7 +1,7 @@
 <template>
   <section class="pb-8" id="inscripciones">
     <v-container fluid>
-      <v-row align="center" justify="center">
+      <v-row class="border-b"  align="center" justify="center">
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5">
@@ -101,18 +101,19 @@
 
           <v-row justify="center" align="center">
             <v-col sm="5">
-              <h3 class="font-weight-light">
+              <h3 class="">
                 Postulación de trabajos 
               </h3>
               <p>Participa y atrévete a inscribirte como ponente en modalidad ponencia o póster del 3 de noviembre del 2020 hasta el 20 de marzo de 2021</p>
             </v-col>
             <v-col sm="3"><p>Formulario de inscripción Ponencia: <v-chip><a href="https://docs.google.com/document/d/1vufsNGvZywGwTWht9O7ufyQ0GrDjz_V6opzzHKKldVs/edit?usp=sharing " target="_blank">Inscribirse</a></v-chip></p></v-col>
-            <v-col sm="3"><p>Formulario de inscripción Poster: <v-chip><a href="https://drive.google.com/file/d/1VDw3thYhYQl6x-9taVpVYIDsg1bsKnSd/view?usp=sharing"target="_blank">Inscribirse</a></v-chip> </p></v-col>
+            <v-col sm="3"><p>Formulario de inscripción Poster: <v-chip><a href="https://drive.google.com/file/d/1VDw3thYhYQl6x-9taVpVYIDsg1bsKnSd/view?usp=sharing" target="_blank">Inscribirse</a></v-chip> </p></v-col>
+            <v-col sm="3"><p>Formulario de inscripción Asistente: <v-chip><a href="http://localhost:8080/" target="_blank">Inscribirse</a></v-chip> </p></v-col>
           </v-row>
           <v-row justify="center" align="center">
-            <v-col sm="5">
+            <v-col sm="6">
               <h3 class="font-weight-light">
-                Para solicitudes, escribe a: <v-chip>enepsi6@ucp.edu.co</v-chip>
+                Para más información, escribenos a: <v-chip>enepsi6@ucp.edu.co</v-chip>
               </h3>
             </v-col>
           </v-row>
@@ -137,6 +138,10 @@
   height: 3rem;
   width: 100%;
   overflow: hidden;
+}
+
+.border-b {
+  border-bottom: 1px solid grey;
 }
 
 </style>

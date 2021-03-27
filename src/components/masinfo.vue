@@ -15,62 +15,57 @@
               <v-row >
                 <v-col cols="4">
                   <v-card shaped disabled>
-                    <v-card-title>03 de noviembre de 2020</v-card-title>
-                    <v-card-text>Apertura y difusión de la convocatoria</v-card-text>
+                    <v-card-title>Apertura y difusión de la convocatoria</v-card-title>
+                    <v-card-text>03 de noviembre de 2020</v-card-text>
                   </v-card>
                 </v-col>
                 <v-col cols="4">
                   <v-card shaped disabled>
-                    <v-card-title>03 de noviembre de 2020</v-card-title>
-                    <v-card-text>Apertura y difusión de la convocatoria</v-card-text>
+                    <v-card-title>Recepción de ponencias </v-card-title>
+                    <v-card-text>Hasta el 20 de marzo de 2021</v-card-text>
                   </v-card>
                 </v-col>
                 <v-col cols="4">
                   <v-card shaped disabled>
-                    <v-card-title>03 de noviembre de 2020</v-card-title>
-                    <v-card-text>Apertura y difusión de la convocatoria</v-card-text>
+                    <v-card-title>Evaluación de ponencias </v-card-title>
+                    <v-card-text>Hasta el 09 de abril de 2021</v-card-text>
                   </v-card>
                 </v-col>
               </v-row>
               <v-row >
                 <v-col cols="4">
                   <v-card shaped disabled>
-                    <v-card-title>03 de noviembre de 2020</v-card-title>
-                    <v-card-text>Apertura y difusión de la convocatoria</v-card-text>
+                    <v-card-title>Publicación preliminar de las ponencias aprobadas  </v-card-title>
+                    <v-card-text>12 de abril de 2021</v-card-text>
                   </v-card>
                 </v-col>
                 <v-col cols="4">
                   <v-card shaped disabled>
-                    <v-card-title>03 de noviembre de 2020</v-card-title>
-                    <v-card-text>Apertura y difusión de la convocatoria</v-card-text>
+                    <v-card-title>Proceso de reclamaciones</v-card-title>
+                    <v-card-text>Del 12 al 13 de abril de 2021</v-card-text>
                   </v-card>
                 </v-col>
                 <v-col cols="4">
                   <v-card shaped disabled>
-                    <v-card-title>03 de noviembre de 2020</v-card-title>
-                    <v-card-text>Apertura y difusión de la convocatoria</v-card-text>
+                    <v-card-title>Publicación Definitiva de las ponencias aprobadas</v-card-title>
+                    <v-card-text>16 de abril de 2021</v-card-text>
                   </v-card>
                 </v-col>
               </v-row>
               <v-row >
                 <v-col cols="4">
                   <v-card shaped disabled>
-                    <v-card-title>03 de noviembre de 2020</v-card-title>
-                    <v-card-text>Apertura y difusión de la convocatoria</v-card-text>
-                  </v-card>
+                    <v-card-title>Sexto encuentro nacional de estudiantes de psicología</v-card-title>
+                    <v-card-text>Del 28 al 30 de abril de 2021</v-card-text>
+                                      </v-card>
                 </v-col>
                 <v-col cols="4">
                   <v-card shaped disabled>
-                    <v-card-title>03 de noviembre de 2020</v-card-title>
-                    <v-card-text>Apertura y difusión de la convocatoria</v-card-text>
+                    <v-card-title>Publicación de memorias</v-card-title>
+                    <v-card-text>Pendiente</v-card-text>
                   </v-card>
                 </v-col>
-                <v-col cols="4">
-                  <v-card shaped disabled>
-                    <v-card-title>03 de noviembre de 2020</v-card-title>
-                    <v-card-text>Apertura y difusión de la convocatoria</v-card-text>
-                  </v-card>
-                </v-col>
+                
               </v-row>
         </v-col>
       </v-row>

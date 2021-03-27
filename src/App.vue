@@ -11,6 +11,7 @@
       <tabs />
       <!--Ponentes -->
       <pricing />
+      <comite></comite>
       <contact />
     </v-main>
     <v-scale-transition>
@@ -51,7 +52,9 @@ import about from "./components/AboutSection";
 import download from "./components/DownloadSection";
 import pricing from "./components/PricingSection";
 import contact from "./components/ContactSection";
-import Inscripciones from './components/inscripciones.vue';
+import Inscripciones from './components/inscripciones';
+import Comite from './components/Comite';
+
 
 
 export default {
@@ -67,6 +70,7 @@ export default {
     pricing,
     contact,
     Inscripciones,
+    Comite
   },
   data: () => ({
     fab: null,

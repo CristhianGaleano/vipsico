@@ -2,5 +2,5 @@ module.exports = {
   "transpileDependencies": [
     "vuetify"
   ]
-  // publicPath: "https://www.ucp.edu.co/apps/xipsico/",
+  // publicPath: "https://www.ucp.edu.co/apps/vipsico/",
 }
