@@ -11,7 +11,7 @@ export default new Vuetify({
                 primary: "#119DA4",
                 secondary: "#171b34",
                 accent: "#3D87E4",
-                carrousel: '#b7b5b5'
+                carrousel: '#f9f9f9'
             }
         }
     },
