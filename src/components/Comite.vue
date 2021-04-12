@@ -13,12 +13,20 @@
       <v-carousel-item v-for="(comite, i) in comites" :key="i">
         <v-sheet
           :color="color"
-          height="80%"
+          height="20%"
           tile
         >
+        <v-row 
+        align="start"
+        justify="center"
+        >
+          <v-col cols="md-9">
+            <h1 class="text-center colortext pt-1 font-weight-light display-1">Conoce los integrantes de los diferentes comites</h1>
+          </v-col>
+        </v-row>
           <v-row
             class="fill-height"
-            align="center"
+            align="start"
             justify="center"
           >
            <!-- <v-col md="12">
@@ -60,44 +68,44 @@
       return {
         comites: [
            { nombre: 'Académico', integrantes: [
-            { nombre: 'Danna Michelle Guevara Prieto', img: require("../assets/img/c-integrante-1.png") },
-            { nombre: 'Danna Michelle Guevara Prieto', img: require("../assets/img/c-integrante-1.png") },
-            { nombre: 'Salomé Ospina Álvarez', img: require("../assets/img/c-integrante-1.png") },
-            { nombre: 'Isabela Ricón Hurtado', img: require("../assets/img/c-integrante-1.png") },
-            { nombre: 'Manuela Bedoya Gärtner', img: require("../assets/img/c-integrante-1.png") },
-            { nombre: 'Valeria Rizo Moreno', img: require("../assets/img/c-integrante-1.png") },
-            { nombre: 'Isabella Prada Campo', img: require("../assets/img/c-integrante-1.png") },
-            { nombre: 'María de los Ángeles Cifuentes Osorio', img: require("../assets/img/c-integrante-1.png") },
-            { nombre: 'Michelle Hurtado Ramirez', img: require("../assets/img/c-integrante-1.png") },
-            { nombre: 'Camila Idarraga María Camila Idárraga López', img: require("../assets/img/c-integrante-1.png") },
-            { nombre: 'Danna Yulissa García Quevedo', img: require("../assets/img/c-integrante-1.png") },
+            { nombre: 'Michelle Guevara Prieto', img: require("../assets/img/c-integrante-1.png") },
+            { nombre: 'Salomé Ospina Álvarez', img: require("../assets/img/c-integrante-2.png") },
+            { nombre: 'Isabela Ricón Hurtado', img: require("../assets/img/c-integrante-3.png") },
+            { nombre: 'Manuela Bedoya Gärtner', img: require("../assets/img/c-integrante-4.png") },
+            { nombre: 'Valeria Rizo Moreno', img: require("../assets/img/c-integrante-5.png") },
+            { nombre: 'Isabella Prada Campo', img: require("../assets/img/c-integrante-6.png") },
+            { nombre: 'María de los Ángeles Cifuentes Osorio', img: require("../assets/img/c-integrante-7.png") },
+            { nombre: 'Michelle Hurtado Ramirez', img: require("../assets/img/c-integrante-8.png") },
+            { nombre: 'María Camila Idárraga López', img: require("../assets/img/c-integrante-9.png") },
+            { nombre: 'Danna Yulissa García Quevedo', img: require("../assets/img/c-integrante-10.png") },
+            
                       ] 
             },
          { nombre: 'Cultural', integrantes: [
-           { nombre: 'Natalia Castaño García', img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Valeria Velásquez Díaz', img: require("../assets/img/c-integrante-1.png")},
+           { nombre: 'Natalia Castaño García', img: require("../assets/img/c-integrante-11.png")},
+           { nombre: 'Valeria Velásquez Díaz', img: require("../assets/img/c-integrante-12.png")},
          ]  },
          { nombre: 'Comunicación', integrantes: [
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Nicolas Muñoz Giraldo',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Juan Diego Escobar Puentes',  img: require("../assets/img/c-integrante-1.png")},
+           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-13.png")},
+           { nombre: 'Nicolas Muñoz Giraldo',  img: require("../assets/img/c-integrante-14.png")},
+           { nombre: 'Juan Diego Escobar Puentes',  img: require("../assets/img/c-integrante-15.png")},
          ] },
          { nombre: 'Logistico', integrantes: [
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
-           { nombre: 'Salomé Ospina Álvarez',  img: require("../assets/img/c-integrante-1.png")},
+           { nombre: 'Yuly Andrea Osorio Gómez',  img: require("../assets/img/c-integrante-16.png")},
+           { nombre: 'Katherine Escárraga Blandon',  img: require("../assets/img/c-integrante-17.png")},
+           { nombre: 'Laura Michelle zuluaga Gutierrez',  img: require("../assets/img/c-integrante-18.png")},
+           { nombre: 'Stefany Agudelo Parra',  img: require("../assets/img/c-integrante-19.png")},
+           { nombre: 'Karol Estefany Arango Celis',  img: require("../assets/img/c-integrante-20.png")},
+           { nombre: 'Vanessa Álvarez Torres',  img: require("../assets/img/c-integrante-21.png")},
+           { nombre: 'Luisa María Galeano Cadavid',  img: require("../assets/img/c-integrante-22.png")},
+           { nombre: 'María Angélica Rojas Villa',  img: require("../assets/img/c-integrante-23.png")},
+           { nombre: 'Juana Valeria Restrepo montes',  img: require("../assets/img/c-integrante-24.png")},
+           { nombre: 'Andrés Felipe Álvarez Henao',  img: require("../assets/img/c-integrante-25.png")},
+           { nombre: 'Juan Eduardo Montoya Franco',  img: require("../assets/img/c-integrante-26.png")},
+           { nombre: 'Michael David Pérez Restrepo',  img: require("../assets/img/c-integrante-27.png")},
+           { nombre: 'Maria Daniela Gutiérrez Martínez',  img: require("../assets/img/c-integrante-28.png")},
+           { nombre: 'Vanessa castaño rojas',  img: require("../assets/img/c-integrante-29.png")},
+           { nombre: 'Dayana Arias',  img: require("../assets/img/c-integrante-30.png")},
          ]}
         ],
         

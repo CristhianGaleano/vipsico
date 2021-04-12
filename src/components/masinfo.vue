@@ -14,55 +14,55 @@
         <v-col cols="10">
               <v-row >
                 <v-col cols="4">
-                  <v-card shaped disabled>
-                    <v-card-title>Apertura y difusión de la convocatoria</v-card-title>
-                    <v-card-text>03 de noviembre de 2020</v-card-text>
+                  <v-card class="alto" shaped disabled>
+                    <v-card-title class="salto">Apertura y difusión de la convocatoria</v-card-title>
+                    <v-card-text class="font-weight-bold" >03 de noviembre de 2020</v-card-text>
                   </v-card>
                 </v-col>
                 <v-col cols="4">
-                  <v-card shaped disabled>
-                    <v-card-title>Recepción de ponencias </v-card-title>
-                    <v-card-text>Hasta el 20 de marzo de 2021</v-card-text>
+                  <v-card class="alto" shaped disabled>
+                    <v-card-title class="salto">Recepción de ponencias </v-card-title>
+                    <v-card-text class="font-weight-bold">Hasta el 20 de marzo de 2021</v-card-text>
                   </v-card>
                 </v-col>
                 <v-col cols="4">
-                  <v-card shaped disabled>
-                    <v-card-title>Evaluación de ponencias </v-card-title>
-                    <v-card-text>Hasta el 09 de abril de 2021</v-card-text>
-                  </v-card>
-                </v-col>
-              </v-row>
-              <v-row >
-                <v-col cols="4">
-                  <v-card shaped disabled>
-                    <v-card-title>Publicación preliminar de las ponencias aprobadas  </v-card-title>
-                    <v-card-text>12 de abril de 2021</v-card-text>
-                  </v-card>
-                </v-col>
-                <v-col cols="4">
-                  <v-card shaped disabled>
-                    <v-card-title>Proceso de reclamaciones</v-card-title>
-                    <v-card-text>Del 12 al 13 de abril de 2021</v-card-text>
-                  </v-card>
-                </v-col>
-                <v-col cols="4">
-                  <v-card shaped disabled>
-                    <v-card-title>Publicación Definitiva de las ponencias aprobadas</v-card-title>
-                    <v-card-text>16 de abril de 2021</v-card-text>
+                  <v-card class="alto" shaped disabled>
+                    <v-card-title class="salto">Evaluación de ponencias </v-card-title>
+                    <v-card-text class="font-weight-bold">Hasta el 09 de abril de 2021</v-card-text>
                   </v-card>
                 </v-col>
               </v-row>
               <v-row >
                 <v-col cols="4">
-                  <v-card shaped disabled>
+                  <v-card class="alto" shaped disabled>
+                    <v-card-title class="salto">Publicación preliminar de las ponencias aprobadas  </v-card-title>
+                    <v-card-text class="font-weight-bold">12 de abril de 2021</v-card-text>
+                  </v-card>
+                </v-col>
+                <v-col cols="4">
+                  <v-card class="alto" shaped disabled>
+                    <v-card-title class="salto">Proceso de reclamaciones</v-card-title>
+                    <v-card-text class="font-weight-bold">Del 12 al 13 de abril de 2021</v-card-text>
+                  </v-card>
+                </v-col>
+                <v-col cols="4">
+                  <v-card class="alto" shaped disabled>
+                    <v-card-title class="salto">Publicación Definitiva de las ponencias aprobadas</v-card-title>
+                    <v-card-text class="font-weight-bold">16 de abril de 2021</v-card-text>
+                  </v-card>
+                </v-col>
+              </v-row>
+              <v-row >
+                <v-col cols="4">
+                  <v-card class="alto" shaped disabled>
                     <v-card-title>Sexto encuentro nacional de estudiantes de psicología</v-card-title>
-                    <v-card-text>Del 28 al 30 de abril de 2021</v-card-text>
+                    <v-card-text class="font-weight-bold">Del 28 al 30 de abril de 2021</v-card-text>
                                       </v-card>
                 </v-col>
                 <v-col cols="4">
-                  <v-card shaped disabled>
+                  <v-card class="alto" shaped disabled>
                     <v-card-title>Publicación de memorias</v-card-title>
-                    <v-card-text>Pendiente</v-card-text>
+                    <v-card-text class="font-weight-bold">Pendiente</v-card-text>
                   </v-card>
                 </v-col>
                 
@@ -74,7 +74,7 @@
 
     </v-container>
     <div class="svg-border-rounded text-light">
-      <!-- <svg
+      <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 144.54 17.34"
         preserveAspectRatio="none"
@@ -83,7 +83,7 @@
         <path
           d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"
         />
-      </svg> -->
+      </svg>
       <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
@@ -178,7 +178,9 @@ ul {
 .content {
   z-index: 1;
 }
-
+.alto {
+  min-height: 133px;
+}
 svg {
   overflow: hidden;
 }
@@ -186,6 +188,8 @@ svg {
 section {
   position: relative;
 }
+
+.salto { word-break: keep-all; }
 </style>
 
 <script>
