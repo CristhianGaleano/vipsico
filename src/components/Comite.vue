@@ -9,12 +9,14 @@
         mdi-plus
       </v-icon>
     </v-row> -->
-    <v-carousel v-model="model">
-      <v-carousel-item v-for="(comite, i) in comites" :key="i">
+    <v-carousel v-model="model" >
+      <v-carousel-item v-for="(comite, i) in comites" :key="i" >
         <v-sheet
           :color="color"
           height="20%"
+          width="100%"
           tile
+          
         >
         <v-row 
         align="start"
@@ -32,7 +34,7 @@
            <!-- <v-col md="12">
              <span class="text-align-center">Comite {{ comite.nombre }} </span>
            </v-col> -->
-                <v-col md="3" v-for="(integrante, j) in comite.integrantes" :key="j">
+                <v-col md="3"  v-for="(integrante, j) in comite.integrantes" :key="j">
                   <!-- {{ comite }} -->
                   <v-list shaped :color="color">
                     <v-list-item-group color="secondary">

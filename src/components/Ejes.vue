@@ -6,7 +6,7 @@
             class="mx-auto"
             max-width="380"
           >
-          <v-card-title class="overline text-no-wrap">
+          <v-card-title class="overline salto">
             Eje temático Psicología clínica
           </v-card-title>
           <v-card-text>
@@ -21,7 +21,7 @@
             class="mx-auto"
             max-width="380"
           >
-          <v-card-title class="overline text-no-wrap">
+          <v-card-title class="overline salto">
             Eje temático Psicología del deporte
           </v-card-title>
           <v-card-text>
@@ -36,7 +36,7 @@
             class="mx-auto"
             max-width="370"
           >
-          <v-card-title class="overline text-no-wrap">
+          <v-card-title class="overline salto">
             Eje temático Psicología del desarrollo
           </v-card-title>
           <v-card-text>
@@ -54,7 +54,7 @@
             class="mx-auto"
             max-width="380"
           >
-          <v-card-title class="overline text-no-wrap">
+          <v-card-title class="overline salto">
             Eje temático Psicología Educativa
           </v-card-title>
           <v-card-text>
@@ -69,7 +69,7 @@
             class="mx-auto"
             max-width="380"
           >
-          <v-card-title class="overline text-no-wrap">
+          <v-card-title class="overline salto">
             Eje temático  Psicología Organizacional
           </v-card-title>
           <v-card-text>
@@ -84,7 +84,7 @@
             class="mx-auto"
             max-width="370"
           >
-          <v-card-title class="overline text-no-wrap">
+          <v-card-title class="overline salto">
             Eje temático Neuropsicología
           </v-card-title>
           <v-card-text>
@@ -102,7 +102,7 @@
             class="mx-auto"
             max-width="380"
           >
-          <v-card-title class="overline text-no-wrap">
+          <v-card-title class="overline salto">
             Eje temático Psicología Social
           </v-card-title>
           <v-card-text>
@@ -116,6 +116,11 @@
     </v-row>
   </v-container>
 </template>
+
+
+<style>
+  .salto { word-break: keep-all; }
+</style>
 
 <script>
 export default {
