@@ -2,21 +2,21 @@
   <section id="hero">
     <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
       <v-row align="center" justify="center">
-        <v-col cols="10">
-          <v-row align="center" justify="center">
-            <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">VI encuentro nacional de estudiantes de psicología-ENEPSI</h1>
+        <v-col cols="11">
+          <v-row align="center" justify="start">
+            <v-col cols="12" md="7" xl="8">
+              <h1 class="display-2 font-weight-bold mb-14">VI encuentro nacional de estudiantes de psicología ENEPSI</h1>
               <h1 class="font-weight-light">
                 "Una mirada desde la psicología a los retos contemporáneos"
               </h1>
-              <p class="font-weight-medium" >Del 28 al 30 de abril de 2021</p>
+              <p class="font-weight-medium headline" >Del 28 al 30 de abril de 2021</p>
               <v-btn
                 rounded
                 outlined
                 large
                 dark
                 @click="$vuetify.goTo('#features')"
-                class="mt-5"
+                class="mt-4"
               >
                 Bajar
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
@@ -74,7 +74,7 @@
     </v-parallax>
     <v-container fluid id="features" class="mt-2">
       <v-row align="center" justify="center">
-        <v-col cols="10">
+        <v-col cols="12">
           <v-row align="center" justify="space-around">
             <v-col cols="12" class="text-center">
               <h1 class="font-weight-light display-2">VI encuentro nacional de estudiantes de psicología</h1>

@@ -1,5 +1,5 @@
 <template>
-  <section id="masinfo" class="pb-8">
+  <section  class="pb-8">
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">

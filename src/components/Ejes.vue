@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container fluid id="masinfo">
     <v-row align="center" justify="center">
       <v-col cols="3">
          <v-card
